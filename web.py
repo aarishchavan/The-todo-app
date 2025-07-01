@@ -7,6 +7,7 @@ def add_todo():
     todo = st.session_state["new_todo"]+ "\n"
     todos.append(todo)
     functions.write_todos(todos)
+    st.session_state["new_todo"] = ""  # Clear the input field
 
 # streamlit run C:\Users\anish\PycharmProjects\web_app1\web.py [ARGUMENTS]
 
