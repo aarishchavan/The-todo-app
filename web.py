@@ -38,7 +38,7 @@ def cancel_edit():
 
 # streamlit run C:\Users\anish\PycharmProjects\web_app1\web.py [ARGUMENTS]
 
-st.title("My Todo App")
+st.title("The Todo App")
 st.subheader("This is my todo app")
 
 st.write("This app is to increase your productivity")
