@@ -5,8 +5,8 @@ import functions
 if 'editing_index' not in st.session_state:
     st.session_state.editing_index = None
 
-todos = functions.get_todos()
 
+todos = functions.get_todos()
 
 def add_todo():
     todo = st.session_state["new_todo"] + "\n"
