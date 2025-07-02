@@ -1,6 +1,2 @@
-clean
-mop
-mop the floor
-clean the bag
-python
-Learn OPPs
+Learn Python
+Learn OOPs
